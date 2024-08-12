@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: black;
+    text-align: right;
+    padding: 10px;
+}
+
+.featured-video {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+}
+
+.featured-video img {
+    max-width: 100%;
+    height: auto;
+}
+
+.video-gallery {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 20px;
+}
+
+.video {
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.video:hover {
+    transform: scale(1.1);
+}
+
+.video img {
+    width: 100%;
+    height: auto;
+}
